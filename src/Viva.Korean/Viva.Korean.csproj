@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>ViVaKR.Korean</PackageId>
+    <RootNamespace>ViVaKR.Korean</RootNamespace>
+    <Description>한글 처리 특화 라이브러리: 조사 자동 선택, 받침 계산 등. (Korean text utilities: josa/particle selection,
+      hangul helpers)</Description>
+    <PackageTags>korean;hangul;josa;particle;postposition</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
